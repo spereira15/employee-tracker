@@ -1,16 +1,13 @@
-const createConnection = require('../db/connection');
+const connection = require('../db/connection');
 
-async function testConnection() {
-    const connection = createConnection();
-  
-    try {
-      await connection.connect();
-      console.log('Database connection successful!');
-    } catch (error) {
-      console.error('Error connecting to the database:', error.message);
-    } finally {
-      connection.end();
+function testConnection() {
+  connection.connect((error) => {
+    if (error) {
+      console.error(`Error connecting to the database: ${error.message}`);
+    } else {
+      console.log('Database connection established successfully!');
     }
-  }
+  });
+}
 
-  testConnection();
+testConnection();

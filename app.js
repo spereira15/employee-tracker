@@ -7,7 +7,7 @@ const {
   addRole,
   addEmployee,
   updateEmployeeRole,
-} = require('./queries');
+} = require('./db/queries');
 
 function startApp() {
   inquirer

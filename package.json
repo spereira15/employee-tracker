@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/spereira15/employee-tracker#readme",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "inquirer": "^8.2.4",
     "mysql2": "^3.5.0"
   }

@@ -1,0 +1,23 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "SQL employee tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spereira15/employee-tracker.git"
+  },
+  "author": "Simon Pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spereira15/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/spereira15/employee-tracker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.5.0"
+  }
+}

@@ -1,3 +1,12 @@
+-- Drop existing database if it exists
+DROP DATABASE IF EXISTS employee_tracker;
+
+-- Create new database
+CREATE DATABASE employee_tracker;
+
+-- Use the newly created database
+USE employee_tracker;
+
 -- Drop existing tables if they exist
 DROP TABLE IF EXISTS employee;
 DROP TABLE IF EXISTS role;

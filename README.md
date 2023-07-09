@@ -13,9 +13,14 @@ This application allows the user to view and manage departments, roles, and empl
 ## Table of Contents
 
 - [Installation](#installation)
+- [Demonstration](#demonstration)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Questions](#questions)
+
+## Demonstration
+
+Video demonstration: https://drive.google.com/file/d/1nDltlI56V3b1MBKaD4SROr9oHkX5S7pd/view. 
 
 ## Installation
 
